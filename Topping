@@ -1,0 +1,7 @@
+
+public abstract class Topping {
+	
+	String name;
+	double price;
+
+}
