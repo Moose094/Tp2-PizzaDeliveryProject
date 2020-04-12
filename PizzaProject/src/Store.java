@@ -10,11 +10,6 @@ public class Store {
 	private boolean isOpen;
 
 	
-	String hours;
-	String address;
-	String drivers[];
-	int numberOfEmployees;
-	boolean isOpen;
 	
 	
 	
