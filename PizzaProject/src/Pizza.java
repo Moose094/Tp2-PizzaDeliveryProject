@@ -56,6 +56,7 @@ public class Pizza {
 			if (t.getName().equals("topping"))
 			{
 				toppings.remove(t);
+				this.price-=t.getPrice();
 				break; //breaks out of for loop so it doesn't remove more than one topping
 			}
 		}
