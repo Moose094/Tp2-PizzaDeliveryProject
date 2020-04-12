@@ -9,10 +9,6 @@ public class Store {
 	
 	
 	
-	
-	
-	
-	
 	boolean isOpen() {
 		return true;
 	}
