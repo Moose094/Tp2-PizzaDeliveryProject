@@ -9,7 +9,7 @@ public class Store {
 	private int driverIndex = 0;
 	private boolean isOpen;
 
-	
+
 	boolean isOpen() {
 		return true;
 	}
