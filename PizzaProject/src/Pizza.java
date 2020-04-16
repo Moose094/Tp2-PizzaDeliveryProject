@@ -38,11 +38,11 @@ public class Pizza {
 	public void setPizzaSize(String size) {
 		this.size = size;
 		
-		if (size.equals("small"))
+		if ("small".equals(size))
 			this.price=10;
-		else if (size.equals("medium"))
+		else if ("medium".equals(size))
 			this.price=13;
-		else if (size.equals("large"))
+		else if ("large".equals(size))
 			this.price=15;
 	}
 	
@@ -53,7 +53,7 @@ public class Pizza {
 	
 	public void removeTopping(String topping) {
 		for (Topping t : toppings) {
-			if (t.getName().equals("topping"))
+			if ("topping".equals(t.getName()))
 			{
 				toppings.remove(t);
 				this.price-=t.getPrice();
