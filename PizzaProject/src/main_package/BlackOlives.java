@@ -1,3 +1,4 @@
+package main_package;
 
 public class BlackOlives extends Topping {
 	public BlackOlives() {

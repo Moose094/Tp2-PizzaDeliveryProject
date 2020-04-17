@@ -1,3 +1,4 @@
+package main_package;
 
 public class Mushrooms extends Topping {
 	public Mushrooms() {

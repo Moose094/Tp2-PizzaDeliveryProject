@@ -1,3 +1,4 @@
+package main_package;
 // creating customer class 
 public class Customer {
 	

@@ -1,3 +1,4 @@
+package main_package;
 //I'm still a bit unclear regarding the responsibility of the store class. Feels like it should do more than just this, but
 //I'm not really basing that off anything.
 
