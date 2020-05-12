@@ -1,0 +1,23 @@
+// Customer – provides basic information about the customer
+•	First name
+•	Last name 
+•	Email 
+•	address
+//Pizza – different types of pizza available for customers to purchase
+•	Pizza Type
+•	Pizza Price
+•	Topping(s)
+//Toppings – pizza decoration 
+•	Jalapeño
+•	Pepperoni
+•	Pineapple 
+•	Sausage 
+•	Supreme
+//Order- customer’s pizza selection or customized for purchase
+•	Order ID 
+•	Order Amount 
+•	Pizza Type
+•	Delivery instruction 
+
+
+
