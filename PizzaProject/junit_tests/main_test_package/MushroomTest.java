@@ -5,16 +5,16 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import main_package.Mushrooms;
+
 class MushroomsTest {
 	
 @Test
 	
 	public void TestMushrooms() {
 		Mushrooms m = new Mushrooms ();
-		m.name = "Mushrooms";
-		m.price = .5;
-		assertEquals("Mushrooms", m.name);
-		assertEquals(.5, m.price);
+		assertEquals("Mushrooms", m.getName());
+		assertEquals(.5, m.getPrice());
 	}
 
 	

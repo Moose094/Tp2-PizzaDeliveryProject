@@ -5,16 +5,16 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import main_package.BlackOlives;
+
 class TestBlackOlives {
 
 @Test
 	
 	public void TestBlackOlives() {
 		BlackOlives bO = new BlackOlives ();
-		bO.name = "Black Olives";
-		bO.price = .5;
-		assertEquals("Black Olives", bO.name);
-		assertEquals(.5, bO.price);
+		assertEquals("Black Olives", bO.getName());
+		assertEquals(.5, bO.getPrice());
 	}
 
 }
