@@ -1,0 +1,10 @@
+_______________________
+|                     |
+|Welcome to PizzaNet! |
+|                     |
+|1. Add Pizza         |
+|2. Clear Order       |
+|3. Review Order      |
+|4. Complete Order    |
+|5. Quit              |
+|_____________________|

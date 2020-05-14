@@ -17,7 +17,7 @@ public class Controller {
 		currentOrder = new Order();
 	}
 	
-	public void addPizza(String type, String size)
+	public void newPizza(String type, String size)
 	{
 		
 		if ("custom".equals(type))
@@ -30,11 +30,14 @@ public class Controller {
 			currentPizza = new SupremePizza(size);
 		else if ("hawaiian".equals(type))
 			currentPizza = new HawaiianPizza(size);
-		
+	}
+	
+	public void addPizza()
+	{
 		pizzas.add(currentPizza);
 	}
 	
-	public void addTopping(String input) 
+	public void addTopping(String input)
 	{
 		Topping topping = null;
 		
@@ -42,7 +45,7 @@ public class Controller {
 			topping = new Bacon();
 		if ("black olives".equals(input))
 			topping = new BlackOlives();
-		if ("canadianbacon".equals(input))
+		if ("canadian bacon".equals(input))
 			topping = new CanadianBacon();
 		if ("green peppers".equals(input))
 			topping = new GreenPeppers();
@@ -50,7 +53,7 @@ public class Controller {
 			topping = new Jalepeno();
 		if ("mushrooms".equals(input))
 			topping = new Mushrooms();
-		if ("onion".equals(input))
+		if ("onions".equals(input))
 			topping = new Onions();
 		if ("pepperoni".equals(input))
 			topping = new Pepperoni();
@@ -65,6 +68,11 @@ public class Controller {
 	public void removeTopping(String input)
 	{
 		currentPizza.removeTopping(input);
+	}
+	
+	public void changeSize(String input)
+	{
+		currentPizza.setPizzaSize(input);
 	}
 	
 	public void clearOrder() 
@@ -96,7 +104,7 @@ public class Controller {
 	public String getOrderInfo() 
 	{
 		String s = "";
-		String details = "";
+		String details = "\n";
 		double t = 0;
 		String total = ""; 
 		
@@ -115,4 +123,11 @@ public class Controller {
 		
 		return s;
 	}
+	
+	public String getPizzaInfo()
+	{
+		return currentPizza.toString();
+	}
+
+
 }

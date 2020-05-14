@@ -1,0 +1,10 @@
+_____________________________
+|                           |
+|Any modifications?         |
+|                           |
+|1. Add Topping             |
+|2. Remove Topping          |
+|3. Change Size             |
+|4. Review Pizza            |
+|5. Add this Pizza to Order |
+|___________________________|

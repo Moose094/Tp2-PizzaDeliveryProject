@@ -67,11 +67,13 @@ public class Pizza {
 	{
 		String s = "";
 		
-		s+=type+" Pizza: ";
+		s+=size+" "+type+" Pizza (";
 		for (Topping t : toppings)
 		{
-			s+=t.getName()+" ";
+			s+=t.getName()+", ";
 		}
+		s+=") \n";
+		s+="  $"+price;
 		
 		return s;
 	}

@@ -13,8 +13,8 @@ class TestCustomer {
 	// testing the customer constructor
 	public void CustomerTesting() {
 Customer c = new Customer ("Lionel", "Ronaldo", "2 jerk st", "Ro@email.com", "555-555");
-assertEquals("Lionel", c.getfirstName());
-assertEquals("Ronaldo", c.getlastName());
+assertEquals("Lionel", c.getFirstName());
+assertEquals("Ronaldo", c.getLastName());
 assertEquals("2 jerk st", c.getAddress());
 assertEquals("Ro@email.com", c.getEmailAddress());
 assertEquals("555-555", c.getphoneNumber());
@@ -25,7 +25,7 @@ assertEquals("555-555", c.getphoneNumber());
 	public void test_first_name() {
 		Customer c = new Customer();
 		c.setFirstName("asdef");
-		assertEquals(c.getfirstName(),"asdef");
+		assertEquals(c.getFirstName(),"asdef");
 	}
 
 	
@@ -33,7 +33,7 @@ assertEquals("555-555", c.getphoneNumber());
 	public void test_last_name() {
 		Customer c = new Customer();
 		c.setLastName("qwer");
-		assertEquals(c.getlastName(),"qwer");
+		assertEquals(c.getLastName(),"qwer");
 	}
 	
 	
