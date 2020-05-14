@@ -1,0 +1,15 @@
+____________________
+|                  |
+|Which topping?    |
+|                  |
+|1. Bacon          |
+|2. Black Olives   |
+|3. Canadian Bacon |
+|4. Green Peppers  |
+|5. Jalepeno       |
+|6. Mushrooms      |
+|7. Onions         |
+|8. Pepperoni      |
+|9. Pineapple      |
+|10. Sausage       |
+|__________________|
