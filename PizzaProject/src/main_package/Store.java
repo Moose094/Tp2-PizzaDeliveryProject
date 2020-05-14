@@ -4,7 +4,6 @@ package main_package;
 
 public class Store {
 
-	private String hours;
 	private String address;
 	private String drivers[] = new String[] {"John G","Dave B","Alicia M","Jared A","Jackie E","Winston N","Jessie J","Katie S"};
 	private int driverIndex = 0;

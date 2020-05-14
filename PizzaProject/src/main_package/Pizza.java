@@ -63,5 +63,18 @@ public class Pizza {
 		}
 	}
 	
+	public String toString()
+	{
+		String s = "";
+		
+		s+=type+" Pizza: ";
+		for (Topping t : toppings)
+		{
+			s+=t.getName()+" ";
+		}
+		
+		return s;
+	}
+	
 	
 }

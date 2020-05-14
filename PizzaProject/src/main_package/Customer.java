@@ -26,7 +26,7 @@ public class Customer {
 	
 	// getter to access customer's first name 
 	
-	public String getfirstName() {
+	public String getFirstName() {
 		return firstName;
 	}	
 	
@@ -37,7 +37,7 @@ public class Customer {
 	
 	// getter to access customer's last name 
 	
-	public String getlastName() {
+	public String getLastName() {
 		return lastName;
 	}	
 	
