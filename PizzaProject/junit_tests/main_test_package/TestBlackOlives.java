@@ -13,7 +13,7 @@ class TestBlackOlives {
 	
 	public void TestBlackOlives() {
 		BlackOlives bO = new BlackOlives ();
-		assertEquals("Black Olives", bO.getName());
+		assertTrue(bO.getName().contentEquals("black olives"));
 		assertEquals(.5, bO.getPrice());
 	}
 

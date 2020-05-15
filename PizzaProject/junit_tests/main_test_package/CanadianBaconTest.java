@@ -14,7 +14,7 @@ class CanadianBaconTest {
 	public void TestCanadianBacon() {
 		CanadianBacon cb = new CanadianBacon ();
 
-		assertEquals("Canadian Bacon", cb.getName());
+		assertTrue(cb.getName().contentEquals("canadian bacon"));
 		assertEquals(1, cb.getPrice());
 	}
 

@@ -13,7 +13,7 @@ class JalepenoTest {
 	
 	public void TestJalepeno() {
 		Jalepeno j = new Jalepeno ();
-		assertEquals("Jalepeno", j.getName());
+		assertTrue(j.getName().contentEquals("jalepeno"));
 		assertEquals(.5, j.getPrice());
 	}
 
