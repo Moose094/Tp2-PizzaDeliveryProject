@@ -1,4 +1,4 @@
-// Customer – provides basic information about the customer
+//Customer – provides basic information about the customer
 •	First name
 •	Last name 
 •	Email 
