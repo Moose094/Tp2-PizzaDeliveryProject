@@ -10,7 +10,7 @@ public class Store {
 	private boolean isOpen;
 
 
-	boolean isOpen() {
+	public boolean isOpen() {
 		return true;
 	}
 	

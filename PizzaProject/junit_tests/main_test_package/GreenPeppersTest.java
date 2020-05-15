@@ -13,7 +13,7 @@ class GreenPeppersTest {
 	
 	public void TestGreenPeppers() {
 		GreenPeppers gp = new GreenPeppers ();
-		assertEquals("Green Peppers", gp.getName());
+		assertTrue(gp.getName().contentEquals("green peppers"));
 		assertEquals(.5, gp.getPrice());
 	}
 

@@ -13,7 +13,7 @@ class PineappleTest {
 	
 	public void TestPineapple() {
 		Pineapple p = new Pineapple ();
-		assertEquals("pineapple", p.getName());
+		assertTrue(p.getName().contentEquals("pineapple"));
 		assertEquals(.45, p.getPrice());
 	}
 	

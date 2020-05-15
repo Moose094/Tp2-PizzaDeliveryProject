@@ -3,7 +3,7 @@
   associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
   <class id="1" language="java" name="main_package.Pineapple" project="PizzaProject" 
     file="/PizzaProject/src/main_package/Pineapple.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="87" x="48" y="1474"/>    
+    <position height="-1" width="-1" x="880" y="1416"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -12,7 +12,7 @@
   </class>  
   <class id="2" language="java" name="main_package.Pizza" project="PizzaProject" 
     file="/PizzaProject/src/main_package/Pizza.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="279" width="158" x="381" y="872"/>    
+    <position height="-1" width="-1" x="1202" y="941"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -21,7 +21,7 @@
   </class>  
   <class id="3" language="java" name="main_package.BlackOlives" project="PizzaProject" 
     file="/PizzaProject/src/main_package/BlackOlives.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="91" x="175" y="1474"/>    
+    <position height="-1" width="-1" x="1009" y="1416"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -30,7 +30,7 @@
   </class>  
   <class id="4" language="java" name="main_package.SupremePizza" project="PizzaProject" 
     file="/PizzaProject/src/main_package/SupremePizza.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="131" x="20" y="1281"/>    
+    <position height="-1" width="-1" x="870" y="1044"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -39,7 +39,7 @@
   </class>  
   <class id="5" language="java" name="main_package.Topping" project="PizzaProject" 
     file="/PizzaProject/src/main_package/Topping.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="153" width="108" x="711" y="1281"/>    
+    <position height="-1" width="-1" x="1242" y="1198"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -48,7 +48,7 @@
   </class>  
   <class id="6" language="java" name="main_package.GreenPeppers" project="PizzaProject" 
     file="/PizzaProject/src/main_package/GreenPeppers.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="106" x="306" y="1474"/>    
+    <position height="-1" width="-1" x="1148" y="1416"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -57,7 +57,7 @@
   </class>  
   <class id="7" language="java" name="main_package.PepperoniPizza" project="PizzaProject" 
     file="/PizzaProject/src/main_package/PepperoniPizza.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="136" x="191" y="1281"/>    
+    <position height="-1" width="-1" x="1021" y="1043"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -66,7 +66,7 @@
   </class>  
   <class id="8" language="java" name="main_package.Bacon" project="PizzaProject" 
     file="/PizzaProject/src/main_package/Bacon.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="87" x="452" y="1474"/>    
+    <position height="-1" width="-1" x="1284" y="1416"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -75,7 +75,7 @@
   </class>  
   <class id="9" language="java" name="main_package.Mushrooms" project="PizzaProject" 
     file="/PizzaProject/src/main_package/Mushrooms.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="92" x="579" y="1474"/>    
+    <position height="-1" width="-1" x="750" y="1418"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -84,7 +84,7 @@
   </class>  
   <class id="10" language="java" name="main_package.SausagePizza" project="PizzaProject" 
     file="/PizzaProject/src/main_package/SausagePizza.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="131" x="367" y="1281"/>    
+    <position height="-1" width="-1" x="883" y="1155"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -93,7 +93,7 @@
   </class>  
   <class id="11" language="java" name="main_package.Customer" project="PizzaProject" 
     file="/PizzaProject/src/main_package/Customer.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="369" width="232" x="20" y="872"/>    
+    <position height="-1" width="-1" x="622" y="1052"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -102,7 +102,7 @@
   </class>  
   <class id="12" language="java" name="main_package.Order" project="PizzaProject" 
     file="/PizzaProject/src/main_package/Order.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="207" width="164" x="196" y="625"/>    
+    <position height="-1" width="-1" x="674" y="693"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -111,7 +111,7 @@
   </class>  
   <class id="13" language="java" name="main_package.HawaiianPizza" project="PizzaProject" 
     file="/PizzaProject/src/main_package/HawaiianPizza.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="81" width="133" x="538" y="1281"/>    
+    <position height="-1" width="-1" x="1027" y="1152"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -147,7 +147,7 @@
   </class>  
   <class id="17" language="java" name="main_package.PizzaUI" project="PizzaProject" 
     file="/PizzaProject/src/main_package/PizzaUI.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="351" width="158" x="226" y="-121"/>    
+    <position height="-1" width="-1" x="1227" y="556"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -165,7 +165,7 @@
   </class>  
   <class id="19" language="java" name="main_package.Store" project="PizzaProject" 
     file="/PizzaProject/src/main_package/Store.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="189" width="115" x="41" y="625"/>    
+    <position height="-1" width="-1" x="713" y="483"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -174,7 +174,7 @@
   </class>  
   <class id="20" language="java" name="main_package.Controller" project="PizzaProject" 
     file="/PizzaProject/src/main_package/Controller.java" binary="false" corner="BOTTOM_RIGHT">    
-    <position height="315" width="207" x="226" y="270"/>    
+    <position height="-1" width="-1" x="960" y="541"/>    
     <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
       sort-features="false" accessors="true" visibility="true">      
       <attributes public="true" package="true" protected="true" private="true" static="true"/>      
@@ -223,7 +223,6 @@
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="33">    
-    <bendpoint x="390" y="625"/>    
     <end type="SOURCE" refId="20" navigable="false">      
       <attribute id="34" name="currentPizza"/>      
       <multiplicity id="35" minimum="0" maximum="1"/>    
@@ -232,7 +231,6 @@
     <display labels="true" multiplicity="true"/>  
   </association>  
   <association id="36">    
-    <bendpoint x="10" y="625"/>    
     <end type="SOURCE" refId="20" navigable="false">      
       <attribute id="37" name="currentCustomer"/>      
       <multiplicity id="38" minimum="0" maximum="1"/>    
@@ -253,7 +251,6 @@
     <end type="TARGET" refId="2"/>  
   </generalization>  
   <association id="42">    
-    <bendpoint x="411" y="625"/>    
     <end type="SOURCE" refId="20" navigable="false">      
       <attribute id="43" name="pizzas"/>      
       <multiplicity id="44" minimum="0" maximum="2147483647"/>    

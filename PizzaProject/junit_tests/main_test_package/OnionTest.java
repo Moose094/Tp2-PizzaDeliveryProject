@@ -13,7 +13,7 @@ class OnionTest {
 	
 	public void TestOnion() {
 		Onions o = new Onions ();
-		assertEquals("Onions", o.getName());
+		assertTrue(o.getName().contentEquals("onions"));
 		assertEquals(.25, o.getPrice());
 	}
 	
