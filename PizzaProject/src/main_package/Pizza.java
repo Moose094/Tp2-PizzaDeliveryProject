@@ -54,7 +54,7 @@ public class Pizza {
 	
 	public void removeTopping(String topping) {
 		for (Topping t : toppings) {
-			if ("topping".equals(t.getName()))
+			if (topping.equals(t.getName()))
 			{
 				toppings.remove(t);
 				this.price-=t.getPrice();

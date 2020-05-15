@@ -11,6 +11,7 @@ public class PizzaUI
 	static String sizeMenu = string_from_file(new File("src/main_package/size-menu.txt"));
 	static String toppingMenu = string_from_file(new File("src/main_package/topping-menu.txt"));
 	static String modMenu = string_from_file(new File("src/main_package/modification-screen.txt"));
+	static String changeInfo = string_from_file(new File("src/main_package/customer-info.txt"));
 	
 	static Boolean running;
 	static Scanner scan = new Scanner(System.in);
@@ -46,11 +47,10 @@ public class PizzaUI
 				System.out.println(app.getOrderInfo());
 				break;
 			case "4":
-				//completeOrder();
-				running = false;
+				completeOrder();
+				System.out.println("You may place another order, or select 5 to quit.");
 				break;
 			case "5":
-				System.out.println("Goodbye");
 				running = false;
 				break;
 			default:
@@ -59,6 +59,7 @@ public class PizzaUI
 
 		}
 		
+		System.out.println("Goodbye");
 	}
 	
 	public static String string_from_file(File file)
@@ -175,6 +176,9 @@ public class PizzaUI
 			case "5":
 				app.addPizza();
 				inMenu = false;
+				break;
+			default:
+				System.out.println("Invalid Input!");
 			}
 		}
 		
@@ -250,6 +254,88 @@ public class PizzaUI
 		default: 
 			return "invalid";
 		}
+	}
+	
+	public static void completeOrder()
+	{
+		System.out.println("Time to complete your order! \n\n");
+		
+		System.out.println("Enter your first name: ");
+		String first = scan.nextLine();
+		System.out.println("\nEnter your last name: ");
+		String last = scan.nextLine();
+		app.addCustomerName(first, last);
+		
+		System.out.println("\nEnter your 9 digit phone number, with no spaces or symbols: ");
+		String phoneNum = scan.nextLine();
+		app.addCustomerPhone(phoneNum);
+		
+		System.out.println("\nEnter your email address: ");
+		String email = scan.nextLine();
+		app.addCustomerEmail(email);
+		
+		System.out.println("\nFinally, enter your delivery address: ");
+		String address = scan.nextLine();
+		app.addCustomerAddress(address);
+		
+		boolean inMenu = true;
+		while (inMenu)
+		{
+			System.out.println(app.getOrderInfo());
+			System.out.println("\n\nDoes everything look correct? y/n");
+			input = scan.nextLine();
+			switch (input)
+			{
+			case "y":
+				System.out.println("\nGreat! See you within 30 minutes.");
+				inMenu = false;
+				break;
+			case "n":
+				System.out.println(changeInfo);
+				input = scan.nextLine();
+				switch (input)
+				{
+				case "1":
+					System.out.println("Enter your first name: ");
+					first = scan.nextLine();
+					System.out.println("\nEnter your last name: ");
+					last = scan.nextLine();
+					app.addCustomerName(first, last);
+					break;
+					
+				case "2":
+					System.out.println("\nEnter your 9 digit phone number, with no spaces or symbols: ");
+					phoneNum = scan.nextLine();
+					app.addCustomerPhone(phoneNum);
+					break;
+					
+				case "3":
+					System.out.println("\nEnter your email address: ");
+					email = scan.nextLine();
+					app.addCustomerEmail(email);
+					break;
+				
+				case "4":
+					System.out.println("\nEnter your delivery address: ");
+					address = scan.nextLine();
+					app.addCustomerAddress(address);
+					break;
+					
+				case "5":
+					inMenu = false;
+					break;
+					
+				default:
+					System.out.println("Invalid Input!");
+				}
+				break;
+				
+			default:
+				System.out.println("Invalid Input!");
+					
+			}
+		}
+		
 	}
 	
 	

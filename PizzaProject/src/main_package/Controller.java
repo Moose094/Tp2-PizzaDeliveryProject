@@ -119,7 +119,7 @@ public class Controller {
 				+"Phone: "+currentCustomer.getphoneNumber()+"\n"
 				+"Address: "+currentCustomer.getAddress()+"\n"
 				+"Order Details: "+details+"\n"
-				+"Total: "+total+"\n";
+				+"Total: $"+total+"\n";
 		
 		return s;
 	}
