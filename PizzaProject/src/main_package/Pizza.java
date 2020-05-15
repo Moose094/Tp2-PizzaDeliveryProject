@@ -63,6 +63,7 @@ public class Pizza {
 		}
 	}
 	
+	@Override
 	public String toString()
 	{
 		String s = "";

@@ -93,7 +93,7 @@ public class PizzaUI
 			System.out.println(sizeMenu);
 			size = scan.nextLine();
 			size = parseSize(size);
-			if (!size.equals("invalid"))
+			if (!"invalid".equals(size))
 				inMenu=false;
 			else
 				System.out.println("Invalid Input!");
@@ -146,7 +146,7 @@ public class PizzaUI
 				System.out.println(toppingMenu);
 				input = scan.nextLine();
 				input = parseTopping(input);
-				if (!input.equals("invalid"))
+				if (!"invalid".equals(input))
 					app.addTopping(input);
 				else
 					System.out.println("Invalid Input!");
@@ -156,7 +156,7 @@ public class PizzaUI
 				System.out.println(toppingMenu);
 				input = scan.nextLine();
 				input = parseTopping(input);
-				if (!input.equals("invalid"))
+				if (!"invalid".equals(input))
 					app.removeTopping(input);
 				else
 					System.out.println("Invalid Input!");
@@ -165,7 +165,7 @@ public class PizzaUI
 				System.out.println(sizeMenu);
 				input = scan.nextLine();
 				input = parseSize(input);
-				if (!input.equals("invalid"))
+				if (!"invalid".equals(input))
 					app.changeSize(input);
 				else
 					System.out.println("Invalid Input!");
