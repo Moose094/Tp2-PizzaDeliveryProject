@@ -13,7 +13,6 @@ class TestPizza {
 // testing pizza type, pizza price and pizza size
 	@Test
 	
-
 	public void test_constructor_1() {
 		Pizza p = new Pizza ("small", "Sausage");
 		assertTrue(p.getPizzaType().contentEquals("Sausage"));
