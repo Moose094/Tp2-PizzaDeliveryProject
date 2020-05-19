@@ -11,7 +11,6 @@ class PepperoniPizzaTest {
 
 @Test
 	// test case for pizza size
-
 	public void TestPepperoniSize() {
 		PepperoniPizza pp = new PepperoniPizza ("");
 		pp.setPizzaSize("small");
