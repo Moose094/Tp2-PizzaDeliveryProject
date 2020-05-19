@@ -11,7 +11,7 @@ class BaconTest {
 	@Test
 	void test_name() {
 		Bacon bacon = new Bacon();
-		assertTrue(bacon.getName().contentEquals("Bacon"));
+		assertTrue(bacon.getName().contentEquals("bacon"));
 	}
 	
 	@Test

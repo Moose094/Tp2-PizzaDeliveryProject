@@ -7,10 +7,10 @@ import java.util.ArrayList;
 public class Controller {
 
 	Store store;
-	Order currentOrder;
+	Order currentOrder = new Order();
 	Customer currentCustomer = new Customer();
 	Pizza currentPizza;
-	ArrayList<Pizza> pizzas = new ArrayList<Pizza>();
+	//ArrayList<Pizza> pizzas = new ArrayList<Pizza>();
 	
 	public void startOrder()
 	{
@@ -34,7 +34,7 @@ public class Controller {
 	
 	public void addPizza()
 	{
-		pizzas.add(currentPizza);
+		currentOrder.addPizza(currentPizza);
 	}
 	
 	public void addTopping(String input)
@@ -77,7 +77,7 @@ public class Controller {
 	
 	public void clearOrder() 
 	{
-		pizzas.clear();
+		currentOrder.clearOrder();
 	}
 	
 	public void addCustomerAddress(String input) 
@@ -104,22 +104,13 @@ public class Controller {
 	public String getOrderInfo() 
 	{
 		String s = "";
-		String details = "\n";
-		double t = 0;
-		String total = ""; 
-		
-		for (Pizza p : pizzas) {
-			details+=p+" \n";
-			t += p.getPizzaPrice();
-		}
-		total += t;
 		
 		s += "Name: "+currentCustomer.getFirstName()+" "+currentCustomer.getLastName()+"\n"
 				+"Email: "+currentCustomer.getEmailAddress()+"\n"
 				+"Phone: "+currentCustomer.getphoneNumber()+"\n"
 				+"Address: "+currentCustomer.getAddress()+"\n"
-				+"Order Details: "+details+"\n"
-				+"Total: $"+total+"\n";
+				+"Order Details: \n"+currentOrder.getInfo()+"\n"
+				+"Total: "+currentOrder.getTotal()+"\n";
 		
 		return s;
 	}
@@ -127,6 +118,18 @@ public class Controller {
 	public String getPizzaInfo()
 	{
 		return currentPizza.toString();
+	}
+	
+	public Order getOrder() {
+		return currentOrder;
+	}
+	
+	public Pizza getCurrentPizza() {
+		return currentPizza;
+	}
+	
+	public Customer getCurrentCustomer() {
+		return currentCustomer;
 	}
 
 

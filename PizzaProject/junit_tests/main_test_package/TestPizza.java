@@ -51,17 +51,6 @@ class TestPizza {
 		p.addTopping(new Pepperoni());
 		assertEquals(p.getPizzaPrice(),11.5);
 	}
-
-	public void PizzaTesting() {
-		Pizza p = new Pizza ("sausage", "small");
-		p.setPizzaSize("small");
-		p.type = "sausage";
-		p.price = 10.0;
-		assertEquals("sausage", p.getPizzaType());
-		assertEquals(10.0, p.getPizzaPrice());
-		assertEquals("small", p.getPizzaSize());
-	}
-	
 	
 	// testing that a small size matches with the price
 		@Test
